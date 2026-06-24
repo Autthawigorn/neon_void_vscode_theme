@@ -6,6 +6,14 @@
 	"publisher": "CanedCat",
 	"license": "MIT",
 	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Autthawigorn/neon_void_vscode_theme"
+	},
+	"bugs": {
+		"url": "https://github.com/Autthawigorn/neon_void_vscode_theme/issues"
+	},
+	"homepage": "https://github.com/Autthawigorn/neon_void_vscode_theme#readme",
 	"galleryBanner": {
 		"color": "#141417",
 		"theme": "dark"
