@@ -1,0 +1,35 @@
+{
+	"name": "neon-void-theme",
+	"displayName": "Neon Void",
+	"description": "A dark theme with neon yellow-green, cyan, and pink accents, based on Xcode 11 Default Dark.",
+	"version": "1.0.0",
+	"publisher": "CanedCat",
+	"license": "MIT",
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#141417",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"dark theme",
+		"neon",
+		"color theme",
+		"xcode"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Neon Void",
+				"uiTheme": "vs-dark",
+				"path": "./themes/neon-void-color-theme.json"
+			}
+		]
+	}
+}
