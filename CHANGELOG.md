@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1
+
+- Brightened the default `variable` color to a light blue (`#bdf0ffe1`) for better readability in JS/TS/React
+- Added `meta.property-name.css` as a fallback so newer/unrecognized CSS properties (e.g. `border-inline`, logical properties) get colored even when the CSS grammar doesn't yet whitelist them
+
 ## 1.1.0
 
 - Added distinct color for React/JSX custom components (`support.class.component`) so they no longer match plain HTML tags

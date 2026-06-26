@@ -189,7 +189,8 @@
             "scope": [
                 "entity.other.attribute-name",
                 "support.type.property-name.css",
-                "support.type.property-name.media.css"
+                "support.type.property-name.media.css",
+                "meta.property-name.css"
             ],
             "settings": {
                 "foreground": "#B281EB"
@@ -353,7 +354,7 @@
                 "variable"
             ],
             "settings": {
-                "foreground": "#FFFFFFD8"
+                "foreground": "#bdf0ffe1"
             }
         },
         {
@@ -647,7 +648,7 @@
             "underline": false
         },
         "variable": {
-            "foreground": "#FFFFFFD8"
+            "foreground": "#bdf0ffe1"
         },
         "parameter": {
             "foreground": "#fdffcdd6"
