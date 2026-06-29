@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2
+
+- Added a distinct color (`#78C2B3`) for JSON property names (`support.type.property-name.json`) to separate keys from string values
+- Fixed a JSON syntax error in the theme file (stray `//` comments) that prevented VS Code from loading the theme
+
 ## 1.1.1
 
 - Brightened the default `variable` color to a light blue (`#bdf0ffe1`) for better readability in JS/TS/React

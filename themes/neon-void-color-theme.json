@@ -13,12 +13,20 @@
         {
             "scope": [
                 "string",
-                "punctuation.definition.string",
+                "punctuation.definition.string"
+            ],
+            "settings": {
+                "foreground": "#FF8170"
+            }
+        },
+        {
+            "scope": [
+                "support.type.property-name.json",
                 "punctuation.support.type.property-name.begin.json",
                 "punctuation.support.type.property-name.end.json"
             ],
             "settings": {
-                "foreground": "#FF8170"
+                "foreground": "#78C2B3"
             }
         },
         {
@@ -354,7 +362,7 @@
                 "variable"
             ],
             "settings": {
-                "foreground": "#bdf0ffe1"
+                "foreground": "#bdf0ff"
             }
         },
         {
@@ -648,7 +656,7 @@
             "underline": false
         },
         "variable": {
-            "foreground": "#bdf0ffe1"
+            "foreground": "#bdf0ff"
         },
         "parameter": {
             "foreground": "#fdffcdd6"
@@ -741,20 +749,14 @@
         "editorInlayHint.foreground": "#7F8C98",
         "editorInlayHint.background": "#FFFFFF11",
         "dart.closingLabels": "#FFFFFF25",
-        // สีวงเล็บ (bracket pair colorization) ปรับให้เป็นธีม Neon
         "editorBracketHighlight.foreground1": "#DFDFDF",
         "editorBracketHighlight.foreground2": "#ff57b9dd",
         "editorBracketHighlight.foreground3": "#beff55dd",
         "editorBracketHighlight.foreground4": "#4afffcdd",
         "editorBracketHighlight.unexpectedBracket.foreground": "#ea5c2c",
-        // 1. 🎨 สีพื้นหลังของ Status Bar ตอนไม่ได้เปิดโฟลเดอร์ (ตัวต้นเหตุสีม่วง)
-        "statusBar.noFolderBackground": "#9dff00b0", // ปรับให้เป็นสีเทาเข้มเท่ากับตอนเปิดโปรเจกต์ปกติได้เลยครับ
-
-        // 2. สีพื้นหลังของ Status Bar ตอนที่กำลังรัน Debug โค้ดอยู่ (เผื่อไว้เลย)
-        "statusBar.debuggingBackground": "#ff00629f", 
-
-        // 3. สีตัวหนังสือและไอคอนต่าง ๆ บนแถบ Status Bar ตอนไม่ได้เปิดโฟลเดอร์
+        "statusBar.noFolderBackground": "#9dff00b0",
+        "statusBar.debuggingBackground": "#ff00629f",
         "statusBar.noFolderForeground": "#0000009e",
-         "statusBar.debuggingForeground": "#000000ac"
+        "statusBar.debuggingForeground": "#000000ac"
     }
 }
