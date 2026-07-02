@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0
+
+- Shifted type-related tokens (types, classes, structs, enums, interfaces, JSON property names, `parameter.label:dart`) to a purple/lavender palette to distinguish them from other syntax groups
+- Changed the default `variable` color to a soft mint (`#AEEEE0`) instead of light blue
+
 ## 1.1.2
 
 - Added a distinct color (`#78C2B3`) for JSON property names (`support.type.property-name.json`) to separate keys from string values

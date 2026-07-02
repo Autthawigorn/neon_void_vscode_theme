@@ -26,7 +26,7 @@
                 "punctuation.support.type.property-name.end.json"
             ],
             "settings": {
-                "foreground": "#78C2B3"
+                "foreground": "#ab79ed"
             }
         },
         {
@@ -98,7 +98,7 @@
                 "storage.type.haskell"
             ],
             "settings": {
-                "foreground": "#ACF2E4"
+                "foreground": "#C9A0FF"
             }
         },
         {
@@ -362,7 +362,7 @@
                 "variable"
             ],
             "settings": {
-                "foreground": "#bdf0ff"
+                "foreground": "#AEEEE0"
             }
         },
         {
@@ -473,31 +473,31 @@
             "foreground": "#4EB0CC"
         },
         "type": {
-            "foreground": "#ACF2E4"
+            "foreground": "#D1B0FB"
         },
         "class": {
-            "foreground": "#ACF2E4"
+            "foreground": "#D1B0FB"
         },
         "struct": {
-            "foreground": "#ACF2E4"
+            "foreground": "#D1B0FB"
         },
         "enum": {
-            "foreground": "#ACF2E4"
+            "foreground": "#C9A0FF"
         },
         "union": {
-            "foreground": "#ACF2E4"
+            "foreground": "#C9A0FF"
         },
         "interface": {
-            "foreground": "#ACF2E4"
+            "foreground": "#C9A0FF"
         },
         "typeParameter": {
-            "foreground": "#ACF2E4"
+            "foreground": "#C9A0FF"
         },
         "typeAlias": {
-            "foreground": "#ACF2E4"
+            "foreground": "#C9A0FF"
         },
         "namespace": {
-            "foreground": "#ACF2E4"
+            "foreground": "#C9A0FF"
         },
         "type.library": {
             "foreground": "#DABAFF"
@@ -656,13 +656,13 @@
             "underline": false
         },
         "variable": {
-            "foreground": "#bdf0ff"
+            "foreground": "#AEEEE0"
         },
         "parameter": {
             "foreground": "#fdffcdd6"
         },
         "parameter.label:dart": {
-            "foreground": "#fdffcdd6"
+            "foreground": "#a875ea"
         },
         "macroBang": {
             "foreground": "#FFFFFFD8"
