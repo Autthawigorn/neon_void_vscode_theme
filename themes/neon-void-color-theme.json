@@ -55,7 +55,8 @@
                 "keyword.operator.sizeof",
                 "storage",
                 "variable.language",
-                "constant.language"
+                "constant.language",
+                "punctuation.definition.keyword"
             ],
             "settings": {
                 "foreground": "#FF7AB2",

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.2
+
+- Fixed Svelte template tag punctuation (`@`, `#`, `/`, `:` in `{@render}`, `{@html}`, `{#if}`, etc.) appearing white instead of pink by adding `punctuation.definition.keyword` to the keyword color rule
+
 ## 1.2.1
 
 - Fixed TypeScript primitive types (`string`, `number`, `boolean`, `void`, etc.) appearing white instead of purple by adding `support.type.primitive.ts` and `.tsx` to the TextMate token rules as a fallback when the TypeScript language server hasn't indexed the file yet
