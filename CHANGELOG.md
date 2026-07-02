@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+- Fixed TypeScript primitive types (`string`, `number`, `boolean`, `void`, etc.) appearing white instead of purple by adding `support.type.primitive.ts` and `.tsx` to the TextMate token rules as a fallback when the TypeScript language server hasn't indexed the file yet
+
 ## 1.2.0
 
 - Shifted type-related tokens (types, classes, structs, enums, interfaces, JSON property names, `parameter.label:dart`) to a purple/lavender palette to distinguish them from other syntax groups

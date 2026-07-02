@@ -95,7 +95,9 @@
             "scope": [
                 "entity.name.type",
                 "entity.other.inherited-class",
-                "storage.type.haskell"
+                "storage.type.haskell",
+                "support.type.primitive.ts",
+                "support.type.primitive.tsx"
             ],
             "settings": {
                 "foreground": "#C9A0FF"
