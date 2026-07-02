@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.3
+
+- Changed `enumMember` color from teal (`#78C2B3`) to blue (`#4EB0CC`) for better distinction from functions and properties
+
 ## 1.2.2
 
 - Fixed Svelte template tag punctuation (`@`, `#`, `/`, `:` in `{@render}`, `{@html}`, `{#if}`, etc.) appearing white instead of pink by adding `punctuation.definition.keyword` to the keyword color rule

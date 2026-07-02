@@ -578,7 +578,7 @@
             "foreground": "#78C2B3"
         },
         "enumMember": {
-            "foreground": "#78C2B3"
+            "foreground": "#4EB0CC"
         },
         "constParameter": {
             "foreground": "#78C2B3"
