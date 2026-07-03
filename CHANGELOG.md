@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.2.4
+
+- Reverted `enumMember` back to teal (`#78C2B3`); `enumMember.declaration` stays blue (`#4EB0CC`) for declaration-site distinction in TypeScript
+- **Dart**: fixed `int`, `double`, `bool` showing bold pink (keyword color) — now purple (`#C9A0FF`) to match other type annotations
+- **TS/JS**: colored `Error`, `Promise`, `Symbol` and other built-in globals (lavender); `import.meta`, `Math.PI`, `process.env` (medium purple); `@decorator` punctuation (orange, matching Dart); `import *` / `export *` reverted from bold pink to plain white; TS enum member TextMate fallback aligned to teal
+- **Svelte**: colored `{` `}` template braces (yellow); `$store` / `$:` reactive sigil (pink bold); CSS properties inside `<style>` blocks (purple); function calls in templates (teal)
+- **HTML**: colored HTML entities `&amp;` `&lt;` `&#160;` (yellow)
+- **CSS**: colored vendor-prefixed properties `-webkit-*` `-moz-*` (purple); vendor-prefixed values (pink bold); `font-feature-settings` tags and URL/keyframe/font-name params reclassified to CSS variable color (`#4EB0CC`)
+
 ## 1.2.3
 
 - Changed `enumMember` color from teal (`#78C2B3`) to blue (`#4EB0CC`) for better distinction from functions and properties
