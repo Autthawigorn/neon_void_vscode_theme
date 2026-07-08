@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.5
+
+- Added Explorer/SCM `gitDecoration.*` colors (ignored, untracked, added, modified, renamed, deleted, staged, conflicting, submodule) and `list.deemphasizedForeground`, previously unset and falling back to VS Code defaults that didn't match the palette
+- Dimmed the git-ignored file/folder color (`#7F8C98` → `#6C7882`) and brightened the normal (non-ignored) file/folder color (`sideBar.foreground` `#a4a4a4` → `#b5b5b5`) for clearer at-a-glance contrast between ignored and tracked items
+
 ## 1.2.4
 
 - Reverted `enumMember` back to teal (`#78C2B3`); `enumMember.declaration` stays blue (`#4EB0CC`) for declaration-site distinction in TypeScript

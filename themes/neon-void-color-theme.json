@@ -818,7 +818,7 @@
         "sideBar.background": "#141417",
         "activityBar.background": "#222227",
         "panel.background": "#1E2023",
-        "sideBar.foreground": "#a4a4a4",
+        "sideBar.foreground": "#b5b5b5",
         "sideBar.border": "#000000",
         "activityBar.border": "#000000",
         "panel.border": "#000000",
@@ -881,6 +881,17 @@
         "statusBar.noFolderBackground": "#9dff00b0",
         "statusBar.debuggingBackground": "#ff00629f",
         "statusBar.noFolderForeground": "#0000009e",
-        "statusBar.debuggingForeground": "#000000ac"
+        "statusBar.debuggingForeground": "#000000ac",
+        "list.deemphasizedForeground": "#6C7882",
+        "gitDecoration.ignoredResourceForeground": "#6C7882",
+        "gitDecoration.untrackedResourceForeground": "#ACF2E4",
+        "gitDecoration.addedResourceForeground": "#ACF2E4",
+        "gitDecoration.modifiedResourceForeground": "#D9C97C",
+        "gitDecoration.renamedResourceForeground": "#78C2B3",
+        "gitDecoration.deletedResourceForeground": "#FF8170",
+        "gitDecoration.stageModifiedResourceForeground": "#D9C97C",
+        "gitDecoration.stageDeletedResourceForeground": "#FF8170",
+        "gitDecoration.conflictingResourceForeground": "#F32C2C",
+        "gitDecoration.submoduleResourceForeground": "#7F8C98"
     }
 }
