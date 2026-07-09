@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.6
+
+- Added distinct color (`#8D885B`) for doc comments (`///`, `/** */`) to differentiate them from regular comments
+
 ## 1.2.5
 
 - Added Explorer/SCM `gitDecoration.*` colors (ignored, untracked, added, modified, renamed, deleted, staged, conflicting, submodule) and `list.deemphasizedForeground`, previously unset and falling back to VS Code defaults that didn't match the palette
